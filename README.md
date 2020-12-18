@@ -1,21 +1,10 @@
-# EnumDemo
+# Ecto Enum
 
-**TODO: Add description**
+## Reference Video
+[https://youtu.be/0I0NLV6YyjA](https://youtu.be/0I0NLV6YyjA)
 
-## Installation
+## Learn more
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `enum_demo` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:enum_demo, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/enum_demo](https://hexdocs.pm/enum_demo).
-
+* Plangora Official website: [https://www.plangora.com/](https://www.plangora.com/)
+* Plangora YouTube Channel: [https://www.youtube.com/c/Plangora](https://www.youtube.com/c/Plangora)
+* Phoenix LiveView Playlist: [https://www.youtube.com/playlist?list=PL6gboNCsWvTcHrOZWcTUL78dpUaLYXPtB](https://www.youtube.com/playlist?list=PL6gboNCsWvTcHrOZWcTUL78dpUaLYXPtB)

@@ -3,16 +3,13 @@ defmodule EnumDemo do
   Documentation for `EnumDemo`.
   """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> EnumDemo.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def create_task(params) do
+    %EnumDemo.Task{}
+    |> EnumDemo.Task.changeset(params)
+    |> evaluate_changeset()
   end
+
+  defp evaluate_changeset(%{valid?: false} = changeset), do: {:error, changeset}
+
+  defp evaluate_changeset(changeset), do: {:ok, Ecto.Changeset.apply_changes(changeset)}
 end
